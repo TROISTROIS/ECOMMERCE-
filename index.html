@@ -15,61 +15,47 @@
 <body>
 <header>
   <nav>
-    <ul>
-  <li class="mobile">
-  <figure>
-    <img src="images/icon-close.svg">
-  </figure>
-  </li>
-  <li class="mobile"><a href="index.html">Sneakers</a></li>
-  <li class="mobile" ><a href="Collections.html">Collections</a></li>
-  <li class="mobile"><a href="Men.html">Men</a></li>
-  <li class="mobile"><a href="Women.html">Women</a></li>
-  <li class="mobile"><a href="About.html">About</a></li>
-  <li class="mobile"><a href="Contact.html">Contact</a></li>
-  <li class="desktop"><a href="index.html">Sneakers</a></li>
-  <li class="desktop" ><a href="Collections.html">Collections</a></li>
-  <li class="desktop"><a href="Men.html">Men</a></li>
-  <li class="desktop"><a href="Women.html">Women</a></li>
-  <li class="desktop"><a href="About.html">About</a></li>
-  <li class="desktop"><a href="Contact.html">Contact</a></li>
+    <ul class="first">
+  
+  <li><a href="index.html">Sneakers</a></li>
+  <li><a href="Collections.html">Collections</a></li>
+  <li><a href="Men.html">Men</a></li>
+  <li><a href="Women.html">Women</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Contact.html">Contact</a></li>
   </ul>
-  </nav>
-  <nav class="pictures">
-    <ul>
-  <li class="cartpic">
-    <figure>
+  <div class="pictures">
+    <figure class="cart">
     <img src="images/icon-cart.svg" alt="Cart">
     </figure>
-    <li class="dp">
-      <figure>
+      <figure class="dp">
         <img src="images/image-avatar.png" alt="Avatar">
       </figure>
-    </li>
-  </ul>
+  </div>
   </nav>
   </header>
-  <section>
+  <section class="productitem">
 
     <div class="Sneakermain">
-      <figure>
+      <figure class="mainproduct">
         <img src="images/image-product-1.jpg" alt="Sneakers">
       </figure>
-    </div>
-    <div class="Sneakersmall">
-      <figure>
-        <img src="images/image-product-1-thumbnail.jpg" alt="Sneakers">
-      </figure>
-      <figure>
-        <img src="images/image-product-4-thumbnail.jpg" alt="Sneakers">
+      <div class="Sneakersmall">
+        <figure>
+          <img src="images/image-product-1-thumbnail.jpg" alt="Sneakers">
         </figure>
-      <figure>
-        <img src="images/image-product-2-thumbnail.jpg" alt="Sneakers">
-      </figure>
-      <figure>
-        <img src="images/image-product-3-thumbnail.jpg" alt="Sneakers">
-      </figure>
+        <figure>
+          <img src="images/image-product-4-thumbnail.jpg" alt="Sneakers">
+          </figure>
+        <figure>
+          <img src="images/image-product-2-thumbnail.jpg" alt="Sneakers">
+        </figure>
+        <figure>
+          <img src="images/image-product-3-thumbnail.jpg" alt="Sneakers">
+        </figure>
+      </div>
     </div>
+    
 <div class="Explain">
 
 <h2>Sneaker Company</h2>
@@ -86,11 +72,19 @@
 </div>
 
   <ul class="twofifty">
-<li>$250.00</li>
+<li><strike>$250.00</strike></li>
 </ul>
 
   <div class="updown">
-    <ul>
+    <div class="plusless">
+      <span>-</span>
+      <p>0</p>
+      <span>+</span>
+    </div>
+    <div class="addtocart">
+      <button ><img src="images/icon-cart.svg">Add to cart</button>
+    </div>
+    <!-- <ul>
       <li>
     <figure>
       <img src="images/icon-plus.svg" alt="plus">
@@ -106,13 +100,13 @@
     </li>
   <li>
     <button class="addtocart">
-      <a href="add">
+      <a href="#">
         <figure>
           <img src="images/icon-cart.svg">
         Add To Cart</figure></a>
     </button>
     </li>
-    </ul>
+    </ul> -->
   </div>
   </div>
   </section>
