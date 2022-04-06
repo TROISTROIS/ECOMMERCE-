@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    background-color:hsl(0, 0%, 100%);
+    font-family: Kumbh Sans;
+
+}
+
+@media screen and (max-width:375px){
+    .mobile{
+		display:block;
+	}
+	.desktop{
+		display: none;
+	}
+}
+@media screen and (max-width:1440px){
+    .mobile{
+		display:none;
+	}
+	.desktop{
+		display:inline;
+	}
+}
+
+
+
+header.desktop{
+    color: black;
+    padding: 120px;
+    height: 100px;
+    margin-top: -150px;
+    font-family: Kumbh Sans;
+}
+
+nav ul{
+    padding:0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 2px;
+    text-transform:capitalize;
+}
+.pictures{
+    right: 100px;
+    position: absolute;
+}
+li.dp.figure{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
+    }
+
+a:hover{
+    font-weight: bolder;
+}
+@media screen and (max-width:500px){
+    .features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .Explain{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        padding: 4px;
+        right:20npx;
+        top: 400px;
+    }
+}
+
+.features{
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Sneakermain figure img{
+    padding: 0px;
+    position: relative;
+    height:300px;
+    width: 300px;
+    border-radius: 3%;
+}
+.Sneakersmall figure{
+    display: inline-block;
+}
+.Sneakersmall figure img{
+    width:90px;
+    height: 90px;
+    object-fit:cover;
+    position: relative;
+    border-radius: 6%;
+
+}
+.Explain{
+width: 600px;
+height: 400px;
+position: absolute;
+padding: 4px;
+right:80px;
+top: 200px;
+}
+h2{
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    font-size: x-small;
+    font-weight: bold;
+}
+p{
+    color: hsl(220, 14%, 75%);
+    font-size: small;
+}
+div ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+div li{
+    display: inline-block;
+    padding: 2px;
+}
+
+li:first-child{
+    color: hsl(0, 0%, 0%);
+    font-weight: bolder;
+}
+li:nth-child(2){
+    color: hsl(26, 100%, 55%);
+}
+.twofifty li{
+    color: hsl(220, 14%, 75%);
+}
+
+.addtocart{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    border-radius: 5%;
+    height: 50px;
+}
+.attribution{
+    text-align: center;
+}
