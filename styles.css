@@ -26,7 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 0px 0px;
     border-bottom: 1px solid hsl(219, 9%, 45%);
 }
 nav ul{
@@ -59,16 +59,9 @@ a:hover{
     font-weight: bolder;
 }
 .productitem{
-    padding: 20px ;
+    padding: 0px ;
     display: flex;
 }
-
-/* .features{
-    background: #ffffff;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-} */
  .Sneakermain{
      padding: 0;
      width: 50%;
@@ -141,28 +134,28 @@ div li{
     padding: 2px;
 }
 
-li:first-child{
-    color: hsl(0, 0%, 0%);
-    font-weight: bolder;
-}
-li:nth-child(2){
-    color: hsl(26, 100%, 55%);
-    background-color: hsl(25, 100%, 94%);
-}
 .twofifty li{
     color: hsl(220, 14%, 75%);
 }
-.updown{
+.last{
+    align-items: center;
     display: flex;
-    
 }
-/* .addtocart{
+.last button{
+    margin: 5px;
+}
+.plusorless{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+}
+.addtocart{
     background-color: hsl(26, 100%, 55%);
     color: hsl(0, 0%, 100%);
-    font-weight: bold;
-    border-radius: 5%;
-    height: 50px;
-} */
+    border-radius: 6px;
+} 
 .attribution{
     text-align: center;
 }
